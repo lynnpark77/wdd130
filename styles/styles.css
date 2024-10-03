@@ -46,9 +46,9 @@ aside {
 
 aside h2 {
     position: absolute;
-    top: 20px;
-    text-align: center;
-    
+    top: 50px;
+    left: 100px;
+  
 }
 
 aside img {
