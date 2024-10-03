@@ -30,6 +30,7 @@ main img {
     border: var(--border);
     padding: var(--padding);
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 p {
     padding: 0;
@@ -41,6 +42,12 @@ aside {
     width: 20rem;
     text-align: center;
 }
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
+}
+
 aside img {
     width: 200px;
     height: auto;
