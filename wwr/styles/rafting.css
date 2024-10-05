@@ -1,0 +1,11 @@
+* {
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+:root {
+    --background-color:#064586 ;
+    --color: #C0C5C1;
+    --padding: 1rem;
+    --border: 2px solid #064586;
+}
