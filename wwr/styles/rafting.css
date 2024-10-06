@@ -13,5 +13,12 @@
 h1, h2, h3, h4, h5, h6 {font-family: 'Roboto+Slab','Afacad+Flux';}
 
 body {
-    font-family: ;
+    font-family: 'Roboto+Slab', "Afacad+Flux";
+    color: black;
+}
+
+header {
+    background-color: var(--background-color);
+    padding: var(--padding)
+    align-items: center;
 }
