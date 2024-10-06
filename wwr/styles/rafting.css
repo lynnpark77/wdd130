@@ -13,20 +13,24 @@
 h1, h2, h3, h4, h5, h6 {font-family: 'Roboto+Slab','Afacad+Flux';}
 
 body {
-    font-family: 'Roboto+Slab', "Afacad+Flux";
+    font-family : 'Roboto Slab';
+    font-style : normal;
+    font-weight : 400;
+    font-display : swap;
+    src : url(https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISWaA.ttf) format('truetype');
     color: black;
 }
 
 header {
     background-color: var(--background-color);
     padding: var(--padding)
-    text-align; center
+
 }
 
 
 
 .hero {
-    background-image: 'images/rafting64_600.jpg';
+    background-image: url('images/river-narrow.jpg');
     background-size: cover;
     background-position: center;
     height: 400px;
