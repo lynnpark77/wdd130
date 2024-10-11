@@ -14,7 +14,7 @@
 
 nav {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-around;
     background-color: var(--background-color);
     padding: var(--padding);
