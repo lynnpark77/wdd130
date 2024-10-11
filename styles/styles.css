@@ -44,11 +44,15 @@ p {
 }
 main {
     max-width: 840px;
+    grid-column: 2/4;
+    
 }
 aside {
     width: 20rem;
     position: relative;
     text-align: center;
+    grid-column: 1/2;
+    grid-row: 1/2
 }
 
 aside h2 {
@@ -61,14 +65,17 @@ aside img {
     width: 200px;
     height: auto;
 }
-header, footer {
+.grid, header, footer {
     max-width: 840px;
     margin: 0 auto;
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
 }
-
+.grid {
+    display: grid;
+    align-items: center;grid-template-columns: repeat(3,1fr);
+}
 /* Class Selectors */
 .box {
     margin: 1rem;
