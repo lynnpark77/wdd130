@@ -19,8 +19,12 @@ nav {
     justify-content: space-evenly;
 }
 nav a {
+    display: block;
+    text-decoration: none;
     color: var(--color);
     padding: var(--padding);
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 h1 {
     color: var(--color);
