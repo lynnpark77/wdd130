@@ -13,11 +13,10 @@
 
 
 nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     background-color: var(--background-color);
-    padding: var(--padding);
+    padding: var(--padding); display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 nav a {
     color: var(--color);
