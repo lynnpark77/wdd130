@@ -65,12 +65,11 @@ aside img {
     width: 200px;
     height: auto;
 }
-header, footer,.grid {
+header, .grid, footer {
     max-width: 840px;
     margin: 0 auto;
-    margin-top: 15px;
-    text-align: center;
 }
+
 footer {
     border-top: 1px solid black;
 }
