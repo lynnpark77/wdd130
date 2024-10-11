@@ -28,6 +28,8 @@ nav a {
 }
 h1 {
     color: var(--color);
+    border-bottom: 2px solid steelblue;
+
 }
 main img {
     width: 150px;
