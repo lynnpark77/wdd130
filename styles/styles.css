@@ -18,7 +18,9 @@ nav {
 }
 nav a {
     color: var(--color);
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     padding: var(--padding);
 }
 h1 {
