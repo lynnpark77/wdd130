@@ -21,14 +21,14 @@ nav {
 nav a {
     display: block;
     text-decoration: none;
-    color: var(--color);
+    color: white;
     padding: var(--padding);
     font-weight: bold;
     font-size: 1.2rem;
 }
 h1 {
-    color: var(--color);
-    border-bottom: 2px solid steelblue;
+    color: steelblue;
+    border-bottom: 1px solid steelblue;
 
 }
 main img {
@@ -72,8 +72,10 @@ aside img {
     max-width: 840px;
     margin: 0 auto;
     margin-top: 15px;
-    border-top: 1px solid #000;
     text-align: center;
+}
+footer {
+    border-top: 1px solid black;
 }
 .grid {
     display: grid;
