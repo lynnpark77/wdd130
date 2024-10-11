@@ -65,7 +65,7 @@ aside img {
     width: 200px;
     height: auto;
 }
-.grid, header, footer {
+header, footer,.grid {
     max-width: 840px;
     margin: 0 auto;
     margin-top: 15px;
