@@ -24,14 +24,14 @@ header {
     margin: 1rem auto;
     display: grid;
     grid-template-columns: 1fr 4fr;
-    max-width: 1000px;
     border-bottom: 1px solid #064586;
 }
 
 nav {
     padding: 1.5rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    vertical-align: middle;
 }
 
 p {
