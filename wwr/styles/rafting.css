@@ -12,7 +12,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Roboto+Slab:wght@100..900&display=swap');
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto Slab','Afacad Flux';
+    font-family: 'Roboto Slab';
 }
 
 body {
