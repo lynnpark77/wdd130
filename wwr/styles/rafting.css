@@ -51,7 +51,7 @@ p {
     
 .hero-box {
     padding: var(--padding);
-    background-color: var(--background-color);
+    background-color: var(--background-color); opacity: 0.3;
     position: absolute;
     float: right;
     border: var(--border);
