@@ -47,13 +47,18 @@ p {
     display: block;
     background-color: var(--background-color);
     color: #6AB4A6;
+    position: absolute;
 }
     
 .hero-box {
     background-color: var(--background-color);
-    position: relative;
+    position: absolute;
 }
-
+aside img {
+    float: right;
+    border: var(--border);
+    
+}
 .social-media a {
     text-decoration: none;
 }
