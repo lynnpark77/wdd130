@@ -9,7 +9,14 @@
     --padding: 20px;
     --border: 2px solid #064586;
 }
-
+@font-face {
+    font-family : 'Afacad Flux';
+    font-style : normal;
+    font-weight : 100;
+    font-display : swap;
+    src : url(https://fonts.gstatic.com/s/afacadflux/v1/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsUwWZaQ.ttf) format('truetype');
+    }
+    
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Slab';
 }
