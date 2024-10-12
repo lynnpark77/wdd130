@@ -5,7 +5,7 @@
 }
 :root {
     --background-color:#064586 ;
-    --color: #C0C5C1;
+    --color: #BBBE64;
     --padding: 20px;
     --border: 2px solid #064586;
 }
@@ -23,7 +23,10 @@ body {
     font-style : normal;
     font-weight : 400;
     font-display : swap;
-    color: black;
+    color: var(--color);
+}
+p {
+    color: #064586;
 }
 
 .hero {
@@ -42,6 +45,7 @@ body {
     text-align: center;
     display: block;
     background-color: var(--background-color);
+    color: #6AB4A6;
 }
     
 .box {
