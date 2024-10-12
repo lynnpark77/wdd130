@@ -64,8 +64,8 @@ p {
     width: 80%;
     height: 30%;
     padding: var(--padding);
-    background-color: var(--background-color); opacity: 0.3;
-    position: relative;
+    background-color: var(--background-color); 
+    position: absolute;
     color: #BBBE64;
 }
 
