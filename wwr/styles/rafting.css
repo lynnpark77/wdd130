@@ -32,6 +32,7 @@ nav {
     display: flex;
     justify-content: space-around;
     vertical-align: middle;
+    font-size: medium;
 }
 
 p {
