@@ -9,6 +9,7 @@
     --padding: 20px;
     --border: 2px solid #064586;
 }
+
 @font-face {
     font-family : 'Afacad Flux';
     font-style : normal;
@@ -16,10 +17,6 @@
     font-display : swap;
     src : url(https://fonts.gstatic.com/s/afacadflux/v1/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsUwWZaQ.ttf) format('truetype');
     }
-    
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto Slab';
-}
 
 body {
     font-family : 'Afacad Flux';
@@ -30,16 +27,22 @@ body {
 }
 
 .hero {
-    background-image: url('images/river-narrow.jpg');
+    background-image: url('../images/river-narrow.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 400px;
     position: relative;
 }
-
-aside img {
-    float: right;
+.hero h1 {
+    font-family: 'Roboto Slab';
+    text-align: center;
+    display: block;
+    background-color: var(--background-color);
+}
+    
+.box {
+    background-color: var(--background-color);
 }
 
 footer {
