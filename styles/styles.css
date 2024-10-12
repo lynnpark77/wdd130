@@ -12,7 +12,8 @@
 }
 
 body {
-    font-family: Georgia;
+    font-family: 'Arial Black';
+    
 }
 nav {
     background-color: var(--background-color);
@@ -29,7 +30,7 @@ nav a {
     font-size: 1.2rem;
 }
 h1 {
-    font-family: 'Arial Black';
+    font-family: Georgia;
     color: steelblue;
     border-bottom: 1px solid steelblue;
 }
