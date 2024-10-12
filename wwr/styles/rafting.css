@@ -11,10 +11,19 @@
 }
 
 body {
+
     font-family : 'Afacad Flux';
     font-style : normal;
     font-weight : 400;
     color: var(--color);
+}
+
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    max-width: 1000px;
+    border-bottom: 1px solid #064586;
 }
 p {
     color: #064586;
