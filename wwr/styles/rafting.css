@@ -22,7 +22,6 @@ body {
     font-family : 'Afacad Flux';
     font-style : normal;
     font-weight : 400;
-    font-display : swap;
     color: var(--color);
 }
 p {
