@@ -70,6 +70,8 @@ p {
 }
 
 .hero-box img {
+    width: 100px;
+    height: auto;
     float: right;
 }
     
