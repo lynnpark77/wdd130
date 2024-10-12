@@ -20,10 +20,10 @@ body {
 }
 
 header {
-    background-color: #064586;
     margin: 1rem auto;
     display: grid;
     grid-template-columns: 1fr 4fr;
+    align-items: center;
     border-bottom: 1px solid #064586;
 }
 
