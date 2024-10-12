@@ -66,6 +66,7 @@ p {
     padding: var(--padding);
     background-color: var(--background-color); opacity: 0.3;
     position: relative;
+    color: #BBBE64;
 }
 
 .hero-box img {
@@ -76,4 +77,9 @@ p {
     
 .social-media a {
     text-decoration: none;
+}
+
+footer {
+    border-top: 1px solid #064586;
+    text-align: center;
 }
