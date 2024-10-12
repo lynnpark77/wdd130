@@ -42,9 +42,11 @@ p {
 }
 .hero h1 {
     font-family: 'Roboto Slab';
+    top: 20px;
     text-align: center;
     display: block;
     background-color: var(--background-color);
+    opacity: 0.5;
     color: #6AB4A6;
     position: absolute;
 }
@@ -53,8 +55,10 @@ p {
     padding: var(--padding);
     background-color: var(--background-color); opacity: 0.3;
     position: absolute;
+}
+
+.hero-box img {
     float: right;
-    border: var(--border);
 }
     
 .social-media a {
