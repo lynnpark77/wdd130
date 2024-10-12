@@ -76,8 +76,9 @@ header, .grid, footer {
 }
 
 footer {
+    margin-top: 15px;
     border-top: 1px solid black;
-    justify-content: center;
+    text-align: center;
 }
 .grid {
     display: grid;
