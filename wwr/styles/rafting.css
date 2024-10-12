@@ -50,14 +50,13 @@ p {
 }
     
 .hero-box {
+    padding: var(--padding);
     background-color: var(--background-color);
     position: absolute;
-}
-aside img {
     float: right;
     border: var(--border);
-    
 }
+    
 .social-media a {
     text-decoration: none;
 }
