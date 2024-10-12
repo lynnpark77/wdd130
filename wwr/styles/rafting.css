@@ -1,6 +1,6 @@
 * {
-    margin: 20px;
-    padding: 10px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 :root {
@@ -9,16 +9,17 @@
     --padding: 20px;
     --border: 2px solid #064586;
 }
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Roboto+Slab:wght@100..900&display=swap');
 
-h1, h2, h3, h4, h5, h6 {font-family: 'Roboto+Slab','Afacad+Flux';}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab','Afacad Flux';
+}
 
 body {
     font-family : 'Roboto Slab', 'Afacad Flux';
     font-style : normal;
     font-weight : 400;
     font-display : swap;
-    src : url(https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISWaA.ttf) format('truetype');
-    src : url(https://fonts.gstatic.com/s/afacadflux/v1/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsX4XZaQ.ttf) format('truetype');
     color: black;
 }
 
