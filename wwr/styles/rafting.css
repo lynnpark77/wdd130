@@ -43,6 +43,7 @@ body {
     
 .box {
     background-color: var(--background-color);
+    position: relative;
 }
 
 footer {
