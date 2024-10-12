@@ -28,8 +28,9 @@ header {
 }
 
 nav {
+    padding: 1.5rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 p {
