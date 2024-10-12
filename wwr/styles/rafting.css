@@ -34,7 +34,7 @@ nav {
 }
 
 p {
-    color: #064586;
+    color: var(--color);
 }
 
 .hero {
@@ -42,6 +42,8 @@ p {
     justify-content: center;
     align-items: center;
     position: relative;
+    margin: 2rem;
+    padding: var(--padding);
 }
 .hero img {
     display: block;
@@ -73,12 +75,21 @@ p {
     height: auto;
     float: right;
 }
-    
+  
+.history {
+    margin: 2rem;
+    padding: var(--padding);
+    background-color: #6AB4A6;
+    color: #064586;
+    text-align: center;
+
+}
 .social-media a {
     text-decoration: none;
 }
 
 footer {
+    display: grid;
     border-top: 1px solid #064586;
     text-align: center;
 }
