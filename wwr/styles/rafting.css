@@ -15,8 +15,12 @@ body {
     font-family : 'Afacad Flux';
     font-style : normal;
     font-weight : 400;
-    background-color: #6AB4A6;
     color: var(--color);
+}
+
+main {
+    background-color: var(--background-color);
+
 }
 
 header {
@@ -79,11 +83,9 @@ p {
 }
   
 .history {
-    margin: 2rem;
+    margin: 1rem;
     padding: var(--padding);
-    background-color: #6AB4A6;
-    color: #064586;
-    text-align: center;
+    color: #BBBE64;
 
 }
 
