@@ -69,7 +69,7 @@ p {
     width: 80%;
     height: 30%;
     padding: var(--padding);
-    background-color: var(--background-color); 
+    background-color: rgba(6,69,134,0.5); 
     position: absolute;
     color: #BBBE64;
 }
