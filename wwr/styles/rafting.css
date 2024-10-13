@@ -44,6 +44,8 @@ p {
 }
 
 .hero {
+    margin: 1rem;
+    padding: var(var(--padding));
     display: flex;
     justify-content: center;
     align-items: center;
