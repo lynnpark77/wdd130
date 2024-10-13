@@ -82,7 +82,12 @@ p {
     height: auto;
     float: right;
 }
-  
+
+section {
+    margin: 2rem;
+    padding: var(--padding);
+    display: flex;
+}
 .history {
     margin: 1rem;
     padding: var(--padding);
