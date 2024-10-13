@@ -60,7 +60,7 @@ p {
     top: 60px;
     text-align: center;
     display: block;
-    background-color: var(--background-color);
+    background-color: rgba(6,69,134,0.5);
     color: #6AB4A6;
     position: absolute;
 }
