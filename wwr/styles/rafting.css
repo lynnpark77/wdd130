@@ -67,7 +67,7 @@ p {
     position: absolute;
 }
     
-.hero-box article {
+.hero-box {
     width: 80%;
     height: 30%;
     padding: var(--padding);
