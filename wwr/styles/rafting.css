@@ -89,8 +89,7 @@ section {
     display: flex;
 }
 .history {
-    margin: 1rem;
-    padding: var(--padding);
+    justify-content: center;
     color: #BBBE64;
 
 }
