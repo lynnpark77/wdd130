@@ -70,7 +70,7 @@ p {
     
 .hero-box {
     width: 60%;
-    height: 20%;
+    height: 10%;
     padding: var(--padding);
     background-color: rgba(6,69,134,0.5); 
     position: absolute;
@@ -82,17 +82,18 @@ p {
     width: 100px;
     height: auto;
     float: right;
+    padding: var(--padding);
 }
 
 section {
     margin: 2rem;
     padding: var(--padding);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
 }
-.history {
-    justify-content: center;
+
+#history {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    
     color: #BBBE64;
 
 }
