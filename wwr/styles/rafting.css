@@ -5,21 +5,24 @@
     max-width: 1500px;
 }
 :root {
-    --background-color:#064586 ;
-    --color: #BBBE64;
+    --primary-color:#064586 ;
+    --secondary-color: #BBBE64;
+    --accent1-color:#EAF0CE;
+    --accent2-color: #6AB4A6;
     --padding: 2rem;
     --border: 2px solid #064586;
+
 }
 
 body {
     font-family : 'Afacad Flux';
     font-style : normal;
     font-weight : 400;
-    color: var(--color);
+    color: var(--secondary-color);
 }
 
 main {
-    background-color: var(--background-color);
+    background-color: var(--primary-color);
 
 }
 
@@ -40,7 +43,7 @@ nav {
 }
 
 p {
-    color: var(--color);
+    color: var(--secondary-color);
 }
 
 .hero {
