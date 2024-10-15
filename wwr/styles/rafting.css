@@ -27,10 +27,12 @@ main {
 }
 
 header {
+
     display: grid;
     grid-template-columns: 1fr 4fr;
     align-items: center;
     border-bottom: 1px solid #064586;
+    font-family: 'Robota Slab';
 }
 
 nav {
@@ -38,8 +40,13 @@ nav {
     display: flex;
     justify-content: space-around;
     vertical-align: middle;
-    font-size: 18px;
     font-weight: bold ;
+}
+nav a {
+    font-family: 'Robota Slab';
+    font-size: 16pt;
+    color: var(--primary-color);
+
 }
 
 p {
@@ -62,6 +69,7 @@ p {
 }
 .hero h1 {
     font-family: 'Roboto Slab';
+    font-size: 40pt;
     top: 60px;
     text-align: center;
     display: block;
@@ -93,7 +101,7 @@ section {
     padding: var(--padding);
 }
 
-#history {
+.history {
     display: grid;
     grid-template-rows: 1fr 1fr;
     
