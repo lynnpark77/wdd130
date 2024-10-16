@@ -50,6 +50,7 @@ nav a {
 }
 
 p {
+    font-size: 14pt;
     color: var(--accent1-color);
 }
 
@@ -113,6 +114,7 @@ section {
 }
 
 .history h2{
+    font-size: 20pt;
     font-family: 'Robota Slab';
     grid-column: 1/4;
     grid-row: 1/2;
@@ -149,6 +151,7 @@ section {
 
 }
 .adverture h2 {
+    font-size: 20pt;
     grid-column: 1/6;
     grid-row: 1/2;
     text-align: center;
