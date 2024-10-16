@@ -32,7 +32,7 @@ header {
     grid-template-columns: 1fr 4fr;
     align-items: center;
     border-bottom: 1px solid #064586;
-    font-family: 'Robota Slab';
+    font-family: 'Robota Slab',serif;
 }
 
 nav {
@@ -43,7 +43,7 @@ nav {
     font-weight: bold ;
 }
 nav a {
-    font-family: 'Robota Slab';
+    font-family: 'Robota Slab', serif;
     font-size: 16pt;
     color: var(--primary-color);
 
