@@ -153,7 +153,7 @@ section {
 }
 
 .adventure img {
-    grid-column: 1/2;
+    grid-column: 1/5;
     grid-row: 2/3;
     width: 200px;
     height: auto;
