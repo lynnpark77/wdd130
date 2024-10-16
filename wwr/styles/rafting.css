@@ -87,13 +87,15 @@ p {
     position: absolute;
     color: #BBBE64;
 }
-
+.hero-box article {
+    margin: 0;
+    padding: var(--padding)
+}
 .hero-box img {
     display: block;
     width: 200px;
     height: auto;
     float: right;
-    padding: var(--padding);
 }
 
 section {
