@@ -157,8 +157,8 @@ section {
 .adventure img {
     grid-column: 1/6;
     grid-row: 2/3;
-    width: 200px;
-    height: auto;
+    height: 200px;
+    width: auto;
     border:2px solid var(--accent1-color);
 }
 figcaption {
