@@ -15,7 +15,7 @@
 }
 
 body {
-    font-family : 'Afacad Flux';
+    font-family : 'Afacad Flux', sans-serif;
     font-style : normal;
     font-weight : bold;
     color: var(--accent1-color);
@@ -69,7 +69,7 @@ p {
     background-size: cover;
 }
 .hero h1 {
-    font-family: 'Roboto Slab';
+    font-family: 'Roboto Slab', serif;
     font-size: 40pt;
     top: 60px;
     text-align: center;
@@ -115,7 +115,8 @@ section {
 
 .history h2{
     font-size: 20pt;
-    font-family: 'Robota Slab';
+    font-family: "Robota Slab", serif;
+    font-weight : 500;
     grid-column: 1/4;
     grid-row: 1/2;
     text-align: center;
@@ -181,7 +182,9 @@ footer {
     grid-template-rows: auto;
     margin: 10px;
     border: 1px solid #064586;
-    font-family: 'Robota Slab';
+    color:#064586;
+    font-family: "Robota Slab", serif;
     font-size: 16;
+    font-weight: bold;
     text-align: center;
 }
