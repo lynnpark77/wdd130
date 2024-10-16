@@ -17,8 +17,8 @@
 body {
     font-family : 'Afacad Flux';
     font-style : normal;
-    font-weight : 400;
-    color: var(--secondary-color);
+    font-weight : bold;
+    color: var(--accent1-color);
 }
 
 main {
@@ -109,7 +109,7 @@ section {
     grid-template-rows: 20% 80%;
     border: 2px solid var(--accent1-color);
     margin: 10px;
-    color: #BBBE64;
+    color: #EAF0CE;
 }
 
 .history h2{
