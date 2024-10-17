@@ -169,8 +169,6 @@ figcaption {
     font-size: 14;
 }
 .social-media a {
-    grid-column: 2/5;
-
     text-decoration: none;
     padding: 10px;
     
@@ -195,4 +193,28 @@ footer {
     font-size: 16;
     font-weight: bold;
     text-align: center;
+}
+.facebook {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.facebook-logo {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.twitter {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.twitter-logo {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.instagram {
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+.instagram-logo {
+    grid-column: 3/4;
+    grid-row: 1/2;
 }
