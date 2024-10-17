@@ -23,7 +23,7 @@ body {
 
 main {
     background-color: var(--primary-color);
-
+    margin: 10px;
 }
 
 header {
@@ -158,6 +158,8 @@ section {
 }
 
 .adventure img {
+    display: flex;
+    flex-direction: row;
     grid-column: 1/6;
     grid-row: 2/3;
     height: 200px;
@@ -181,6 +183,7 @@ footer {
     grid-template-rows: auto;
     margin: 10px;
     border: 1px solid #064586;
+    background-color: #BBBE64;
    
 }
 
