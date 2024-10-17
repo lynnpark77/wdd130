@@ -31,7 +31,6 @@ header {
     grid-template-columns: 1fr 4fr;
     align-items: center;
     border-bottom: 1px solid #064586;
-    font-weight: bold;
 }
 
 nav {
@@ -39,9 +38,9 @@ nav {
     display: flex;
     justify-content: space-around;
     vertical-align: middle;
-    font-weight: bold ;
 }
 nav a {
+    font-family: 'Robota Slab', serif;
     font-weight: bold;
     font-size: 16pt;
     color: var(--primary-color);
@@ -69,7 +68,7 @@ p {
 }
 .hero h1 {
     font-family: 'Roboto Slab', serif;
-    font-size: 40pt;
+    font-size: 45pt;
     top: 60px;
     text-align: center;
     display: block;
