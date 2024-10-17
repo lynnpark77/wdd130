@@ -151,14 +151,14 @@ section {
 }
 .adverture h2 {
     font-size: 20pt;
-    grid-column: 1/6;
-    grid-row: 1/2;
+    grid-column: 1 / span 6;
+    grid-row: 1 / 2;
     text-align: center;
 }
 
 .adventure img {
-    grid-column: 1/6;
-    grid-row: 2/3;
+    grid-column: 1 / span 6;
+    grid-row: 2 / 3;
     width: 200px;
     height: auto;
     border:2px solid var(--accent1-color);
