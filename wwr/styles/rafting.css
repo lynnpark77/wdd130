@@ -43,7 +43,7 @@ nav {
     font-weight: bold ;
 }
 nav a {
-    font-family: 'Robota Slab', serif;
+    font-weight: bold;
     font-size: 16pt;
     color: var(--primary-color);
 
@@ -115,8 +115,7 @@ section {
 
 .history h2{
     font-size: 20pt;
-    font-family: "Robota Slab", serif;
-    font-weight : 500;
+    font-weight : bold;
     grid-column: 1/4;
     grid-row: 1/2;
     text-align: center;
@@ -182,6 +181,10 @@ footer {
     grid-template-rows: auto;
     margin: 10px;
     border: 1px solid #064586;
+   
+}
+
+.footer p {
     color:#064586;
     font-family: "Robota Slab", serif;
     font-size: 16;
