@@ -160,18 +160,18 @@ section {
 .adventure img {
     grid-column: 1/6;
     grid-row: 2/3;
-    height: 200px;
-    width: auto;
+    width: 200px;
+    height: auto;
     border:2px solid var(--accent1-color);
 }
 figcaption {
     text-align: center;
     font-size: 14;
 }
-.social-media a {
+.social-media a, img {
     text-decoration: none;
     padding: 10px;
-    
+
 }
 
 footer {
