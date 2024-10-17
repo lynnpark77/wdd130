@@ -153,7 +153,7 @@ section {
 .adverture h2 {
     font-size: 20pt;
     grid-column: 1/6;
-    grid-row: 1;
+    grid-row: 1/2;
     text-align: center;
 }
 
@@ -194,27 +194,28 @@ footer {
     font-weight: bold;
     text-align: center;
 }
-.facebook {
-    grid-column: 2/3;
-    grid-row: 2/3;
-}
+
 .facebook-logo {
     grid-column: 2/3;
     grid-row: 1/2;
 }
-.twitter {
-    grid-column: 3/4;
+.facebook {
+    grid-column: 2/3;
     grid-row: 2/3;
 }
 .twitter-logo {
     grid-column: 3/4;
     grid-row: 1/2;
 }
-.instagram {
-    grid-column: 4/5;
+.twitter {
+    grid-column: 3/4;
     grid-row: 2/3;
 }
 .instagram-logo {
     grid-column: 3/4;
     grid-row: 1/2;
+}
+.instagram {
+    grid-column: 4/5;
+    grid-row: 2/3;
 }
