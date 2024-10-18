@@ -143,8 +143,8 @@ section {
     place-items: center;
     border: 2px solid var(--accent1-color);
     margin: 10px;
-    grid-template-columns: repeat(5,20%);
-    grid-template-rows: 20% 80%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 150px 1fr;
 
 }
 .adverture h2 {
