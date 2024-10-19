@@ -49,6 +49,7 @@ legend {
 
 label, input, button, select, textarea {
     font-family: Roboto,Arial, sans-serif;
+    color: black;
 }
 
 label {
@@ -68,6 +69,7 @@ input[type="checkbox"] {
 
 button {
     margin: 1rem;
+    width: 250px;
     background-color: navy;
     color: #fff;
     border: none;
