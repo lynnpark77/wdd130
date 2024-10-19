@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Merriweather, Georgia, serif;
+    font-size: 1.2em;
+    color: #030558;
+    background: #fff;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color:#030558;
+    text-align: left;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+
+}
+
+fieldset {
+    display: grid;
+}
+
+label, input, button, select, textarea {
+    color: black;
+}
+
+label {
+    text-align: left;
+    padding-left: 1rem;
+}
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
