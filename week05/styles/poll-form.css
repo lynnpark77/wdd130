@@ -69,14 +69,14 @@ input[type="checkbox"] {
 
 button {
     margin: 1rem;
-    width: 200px;
+    width: 150px;
     background-color: navy;
     color: #fff;
     border: none;
     border-radius: .5rem;
     padding: .75rem;
     font-size: 1.2rem;
-    align-items: center;
+    align-content: center;
 }
 
 button:hover {
