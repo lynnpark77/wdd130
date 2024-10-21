@@ -216,3 +216,19 @@ footer {
     grid-column: 4/5;
     grid-row: 2/3;
 }
+.rectangle-1 {
+    padding:2rem;
+    text-align: center;
+}
+.contactinfo {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 1.5rem;
+    background-color: #BBBE64;
+    color:#064586;
+    
+}
+.detail p{
+    color: #064586;
+}
+
