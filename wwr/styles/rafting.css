@@ -287,5 +287,15 @@ fieldset {
 }
 
 button {
-    
+    background-color:#064586;
+    color:#EAF0CE;
+    font-weight: bold;
+    padding:10px 20px;
+    border-radius: 1rem;
+}
+.button-box {
+    text-align: center;
+}
+button:hover {
+    background-color:darkgreen;
 }
