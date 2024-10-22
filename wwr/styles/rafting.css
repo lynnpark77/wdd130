@@ -9,7 +9,7 @@
     --secondary-color: #BBBE64;
     --accent1-color:#EAF0CE;
     --accent2-color: #6AB4A6;
-    --padding: 2rem;
+    --padding: 1rem;
     --border: 2px solid #064586;
 
 }
@@ -41,7 +41,7 @@ nav {
     vertical-align: middle;
 }
 nav a {
-    font-family: 'Robota Slab', serif;
+    font-family: Georgia, serif;
     font-weight: bold;
     font-size: 16pt;
     color: var(--primary-color);
@@ -50,7 +50,6 @@ nav a {
 
 p {
     font-size: 16pt;
-    color: var(--accent1-color);
 }
 
 .hero {
@@ -89,7 +88,11 @@ p {
 }
 .hero-box article {
     margin: 0;
-    padding: var(--padding)
+    padding: var(--padding);
+    color:#BBBE64
+}
+.hero-box p{
+    color:#BBBE64
 }
 .hero-box img {
     display: block;
@@ -111,7 +114,9 @@ section {
     margin: 10px;
     color: #EAF0CE;
 }
-
+.history p {
+    color: #EAF0CE;
+}
 .history h2{
     font-size: 22pt;
     font-weight : bold;
@@ -140,6 +145,9 @@ section {
 }
 
 .adventure {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
     border: 2px solid var(--accent1-color);
     margin: 10px;
     place-items: center;
@@ -153,9 +161,7 @@ section {
 }
 
 .adventure img {  
-    display: grid;
-    grid-template-columns: repeat(5 1fr);
-    grid-template-rows: 1fr;
+   
     width: 200px;
     height: auto;
     border:2px solid var(--accent1-color);
@@ -177,8 +183,11 @@ footer {
     grid-template-rows: 70% 30%;
     border: 1px solid #064586;
     background-color: #BBBE64;
-    font-family: 'Robota Slab',serif;
+    font-family: Georgia,serif;
    
+}
+footer a {
+    font-size: 14pt;
 }
 
 .copyrights {
@@ -214,21 +223,69 @@ footer {
     grid-column: 4/5;
     grid-row: 2/3;
 }
+.wireframe {
+    grid-column: 1/2;
+    grid-row: 2/3; 
+}
+
 .rectangle-1 {
     padding:2rem;
     text-align: center;
 }
+.rectangle-1 p{
+    color:#EAF0CE;
+    font-family: Georgia,serif;
+}
 .contactinfo {
     display: grid;
     grid-template-columns: 50% 50%;
-    padding: 1.5rem;
+    padding: 50px;
     background-color: #BBBE64;
     color:#064586;
     
 }
 .detail p{
     color: #064586;
+    text-align: left;
+    font-family: Georgia,serif;
+}
+.profile {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 4fr;
+    border:2px solid var(--accent1-color);
+    place-items: center;
 }
 .profile h2 {
+    grid-column: 1/4;
     text-align: center;
+}
+.profile h3 {
+    text-align: center;
+    color:#EAF0CE;
+}
+.profile img {
+    border:2px solid var(--accent1-color);   
+}
+
+.message {
+    place-items: center;
+    background-color: #EAF0CE;
+    color:#064586;
+    border: 0;
+
+}
+.message h1, p, h3 {
+    color: #064586;
+    text-align: center;
+}
+
+fieldset {
+    padding: 50px 200px ;
+    border: 0;
+}
+
+button {
+    
 }
