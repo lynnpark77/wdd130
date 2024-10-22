@@ -84,15 +84,15 @@ p {
     padding: var(--padding);
     background-color: rgba(6,69,134,0.5); 
     position: absolute;
-    color: #BBBE64;
+    color:#EAF0CE;
 }
 .hero-box article {
     margin: 0;
     padding: var(--padding);
-    color:#BBBE64
+    color:#BBBE64;
 }
 .hero-box p{
-    color:#BBBE64
+    color:#BBBE64;
 }
 .hero-box img {
     display: block;
