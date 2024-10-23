@@ -118,7 +118,7 @@ section {
     color: #EAF0CE;
 }
 .history h2{
-    font-size: 22pt;
+    font-size: 1.5em;
     font-weight : bold;
     grid-column: 1/4;
     grid-row: 1/2;
@@ -154,19 +154,22 @@ section {
     
 }
 
-.adverture h2 { 
+.adventure h2 { 
+    font-size: 1.5em;
     grid-column: 1/6;
-    grid-row: 1/2;
-    font-size: 20pt;  
-    align-content: center;
+    grid-row: 1/2;   
+    text-align: center;
 }
 
-.adventure img {  
-   
+.adventure figure {
+    grid-row: 2/3;  
     width: 200px;
     height: auto;
-    border:2px solid var(--accent1-color);
 }
+.adventure img {
+    border: 2px solid var(--accent1-color);
+}
+
 figcaption {
     text-align: center;
     font-size: 14pt;
