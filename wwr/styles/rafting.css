@@ -53,7 +53,6 @@ p {
 }
 
 .hero {
-    margin: 1rem;
     padding: var(--padding);
     display: flex;
     justify-content: center;
@@ -102,7 +101,6 @@ p {
 }
 
 section {
-    margin: 2rem;
     padding: var(--padding);
 }
 
