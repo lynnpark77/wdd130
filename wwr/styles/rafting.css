@@ -156,6 +156,7 @@ section {
 
 .adverture h2 { 
     grid-column: 1/6;
+    grid-row: 1/2;
     font-size: 20pt;  
     align-content: center;
 }
