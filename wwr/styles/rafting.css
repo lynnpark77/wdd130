@@ -209,6 +209,11 @@ footer a, img {
     padding: 10px;
 
 }
+.image-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
 
 footer {
     display: grid;
@@ -336,4 +341,15 @@ button:hover {
 }
 .button-trip {
     background-color: #6AB4A6;
+}
+.cta-button {
+    display: inline-block;
+    padding: 5px 20px;
+    color: white;
+    background-color:#BBBE64;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.5em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
