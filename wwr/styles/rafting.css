@@ -224,9 +224,33 @@ footer a, img {
 }
 .subscribe {
     background-color:#EAF0CE;
+    display: grid;
+    position: relative;
+    padding: 50px 200px;
+    
 }
-.nature-img {
-   
+.subscribe img {
+    box-shadow: 5px 5px rgba(0,0,0,0.3);
+    padding: 0; 
+    width : 600px;
+    border-radius: 10px; 
+}
+.subscribe-box {
+    position: absolute;
+    top: 80px;
+    right: 200px;
+    color:#064586;
+    background-color: #6AB4A6;
+    width: 600px;
+    height: 350px;
+    border-radius: 10px;
+    padding: 0;
+}
+.subscribe-box h2 {
+    text-align: center;
+}
+.subscribe-box fieldset{
+    padding: 50px 20px;
 }
 
 footer {
@@ -340,8 +364,8 @@ fieldset {
 }
 
 button {
-    background-color:#BBBE64;
-    color:#064586;
+    background-color:#064586;
+    color:#EAF0CE;
     font-weight: bold;
     font-family: Georgia;
     padding:10px 20px;
