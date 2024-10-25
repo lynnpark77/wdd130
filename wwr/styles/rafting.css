@@ -51,21 +51,53 @@ nav a {
 p {
     font-size: 16pt;
 }
-
-.hero {
+.home {
+    background-color: white;   
+}
+.hero-1 {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 2fr 1fr 3fr;
+    position: relative;
+}
+.hero-1 h1{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    position: absolute; 
+    background-color: rgba(6,69,134,0.5) ;
+    border-radius: 1rem;
+    top: 40px;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+}
+.hero-1 h2{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color:rgba(6,69,134,0.5) ;
+    border-radius: 1rem;
+    text-align: center;
+}
+.hero-1 img{
+    grid-column: 1/4;
+    grid-row: 1/4;
+    justify-items: center;
+    
+}
+.hero-2 {
     padding: var(--padding);
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
 }
-.hero img {
+.hero-2 img {
     display: block;
     width: 100%;
     height: auto;
     background-size: cover;
 }
-.hero h1 {
+.hero-2 h1 {
     font-family: 'Roboto Slab', serif;
     font-size: 45pt;
     top: 60px;
@@ -289,9 +321,10 @@ fieldset {
 }
 
 button {
-    background-color:#064586;
-    color:#EAF0CE;
+    background-color:#BBBE64;
+    color:#064586;
     font-weight: bold;
+    font-family: Georgia;
     padding:10px 20px;
     border-radius: 1rem;
 }
@@ -299,5 +332,8 @@ button {
     text-align: center;
 }
 button:hover {
-    background-color:darkgreen;
+    background-color:aqua;
+}
+.button-trip {
+    background-color: #6AB4A6;
 }
