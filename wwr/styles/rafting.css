@@ -211,8 +211,22 @@ footer a, img {
 }
 .image-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    
+    grid-template-columns: 1fr 1fr 1fr; 
+    justify-items: center; 
+}
+.activity {
+    border: 4px solid var(--secondary-color);
+    box-shadow: gray 2px 2px;
+ 
+}
+.image-container figcaption {
+    color:#BBBE64
+}
+.subscribe {
+    background-color:#EAF0CE;
+}
+.nature-img {
+   
 }
 
 footer {
