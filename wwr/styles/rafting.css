@@ -454,6 +454,7 @@ table {
 th,td {
     border: 2px solid rgba(6,69,134,0.5) ;
     padding: 5px 8px;
+    text-align: center;
 }
 .info-table {
     background-color: #EAF0CE;
@@ -463,4 +464,5 @@ th,td {
 .contact {
     place-items: center;
     padding: 150px 0;
+    font-size: larger;
 }
