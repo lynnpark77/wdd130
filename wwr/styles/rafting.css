@@ -466,3 +466,9 @@ th,td {
     padding: 150px 0;
     font-size: larger;
 }
+.contact h2{
+    text-align: center;
+}
+.contact a {
+    place-items: center;
+}
