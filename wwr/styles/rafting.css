@@ -230,6 +230,11 @@ footer a, img {
     color:#BBBE64;
     padding: 10px;
 }
+.image-container h1 {
+    grid-column: 1/4;
+    color:#064586;
+    padding: 10px;
+}
 .activity {
     border: 4px solid var(--secondary-color);
     box-shadow: gray 2px 2px;
