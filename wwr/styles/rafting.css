@@ -469,6 +469,6 @@ th,td {
 .contact h2{
     text-align: center;
 }
-.contact a.cta-button {
+.contact a {
     place-items: center;
 }
