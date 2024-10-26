@@ -39,20 +39,30 @@ nav {
     display: flex;
     justify-content: space-around;
     vertical-align: middle;
+    color: #064586;
 }
 nav a {
     font-family: Georgia, serif;
     font-weight: bold;
     font-size: 16pt;
     color: var(--primary-color);
+    text-decoration: none;
 
 }
 
 p {
     font-size: 16pt;
 }
-.home {
+.home, .trips {
     background-color: white;   
+}
+.trip-container {
+    background-color: #EAF0CE;
+}
+.trips h1 {
+    color:#064586;
+    text-align: center;
+    padding: 50px;
 }
 .hero-1 {
     display: grid;
@@ -239,7 +249,7 @@ footer a, img {
     position: absolute;
     top: 80px;
     right: 200px;
-    color:#064586;
+    color:black;
     background-color: #6AB4A6;
     width: 600px;
     height: 350px;
@@ -248,6 +258,9 @@ footer a, img {
 }
 .subscribe-box h2 {
     text-align: center;
+}
+.subscribe-box p{
+    color:black;
 }
 .subscribe-box fieldset{
     padding: 50px 20px;
@@ -375,7 +388,7 @@ button {
     text-align: center;
 }
 button:hover {
-    background-color:aqua;
+    background-color:;
 }
 .button-trip {
     background-color: #6AB4A6;
@@ -383,11 +396,14 @@ button:hover {
 .cta-button {
     display: inline-block;
     padding: 5px 20px;
-    color: white;
+    color:#064586;
     background-color:#BBBE64;
     text-decoration: none;
     font-weight: bold;
     font-size: 0.5em;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+}
+.cta-button:hover {
+    background-color: aqua;
 }
